@@ -1,0 +1,36 @@
+{
+    "name": "Leandro J. Olivera",
+    "backImage": "../assets/background.jpg",
+    "image": "../assets/profile.png",
+    "position": "Informático en Ministerio de Salud de Santa Fe.",
+    "company": {
+        "name": "Gobierno de la provincia de Santa Fé - Ministerio de Salud",
+        "img": "../assets/gno-stafe-logo.png",
+        "url": "https://www.santafe.gov.ar"
+    },
+    "ubication": "Santa Fe, Santa Fe (Argentina)",
+    "about": "Estudiante de grado en la carrera Ingeniería en Sistemas de Información de la UTN-FRSF.",
+    "about2": "Formandomé como programador FullStack Junior en Argentina Programa.",
+    "experience": [{
+        "position": "Soporte IT - Área de Infraestructura",
+        "company": "Ministerio de Salud - Santa Fe",
+        "img": "../assets/gno-stafe-logo.png",
+        "mode": "Jornada Completa",
+        "start": "Oct. 2016",
+        "end": "Actualidad"
+    }],
+    "education": [{
+        "school": "Universidad Tecnológica Nacional - Facultad Regional Santa Fe",
+        "career": "Ingeniería en Sistemas de Información",
+        "img": "../assets/UTN_logo.jpg",
+        "start": "2011",
+        "end": "Actualidad"
+    },
+    {
+        "school": "Argentina Programa - INTI - Ministerio de Economía",
+        "career": "FullStack Developer Junior",
+        "img": "../assets/arg_prog_logo.jpg",
+        "start": "2011",
+        "end": "Actualidad"
+    }]
+}

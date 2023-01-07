@@ -1,0 +1,28 @@
+<div class="card mat-card">
+    <div id="experience">
+        <div class="card-titles">
+            <h2>Experiencia</h2>
+            <ul id="experience-details">
+                <li>
+                    <img src="../assets/gno-stafe-logo.png" alt="StaFe">
+                    <div id="description"><h2>Soporte IT - Área de Infraestructura</h2>
+                        <span>Ministerio de Salud - Santa Fe - Jornada Completa</span>
+                        <p>Oct. 2016 - Actualidad</p>
+                        <p>Santa Fé, Argentina</p></div>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <h2>Educación</h2>
+            <ul id="education-details">
+                <li *ngFor="let education of educacionList">
+                    <img [src]="education.img" alt="UTN-FRSF">
+                    <div id="description"><h2>{{education.career}}</h2>
+                        <span>{{education.school}}</span>
+                        <p>{{education.start}} - {{education.end}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
