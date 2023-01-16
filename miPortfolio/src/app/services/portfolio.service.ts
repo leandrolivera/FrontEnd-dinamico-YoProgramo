@@ -7,10 +7,11 @@ import { Observable } from "rxjs";
 })
 export class PortfolioService {
 
+  url:string="https://portfolio-leandrolivera.koyeb.app/"
   constructor(private http:HttpClient) { }
 
   obtenerDatos():Observable<any>{
     console.log("El servicio Portfolio está funcionando ok.")
-    return this.http.get('./assets/data/data.json');
+    return this.http.get<any>(this.url+"persona");
   }
 }
