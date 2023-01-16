@@ -42,7 +42,7 @@ export class IniciarSesionComponent implements OnInit{
   onEnviar(event:Event){
     event.preventDefault;
     this.autenticacionService.IniciarSesion(this.form.value).subscribe(data=>{
-      console.log("DATA: "+JSON.stringify(data));
+      console.log("DATA iniciarSesion: "+JSON.stringify(data));
       this.ruta.navigate(['/portfolio']);
     });
 
